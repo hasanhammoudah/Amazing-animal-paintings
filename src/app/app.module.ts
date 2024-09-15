@@ -1,3 +1,4 @@
+import { CartModule } from './cart/cart.module';
 import { ProductModule } from './product/product.module';
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
@@ -20,7 +21,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     ProductModule,
     BrowserAnimationsModule,
     MatToolbarModule,
-    MatButtonModule
+    MatButtonModule,
+    CartModule
   ],
   providers: [],
   bootstrap: [AppComponent]
